@@ -6,19 +6,6 @@
 
   }
 
-.mod1 {
-    background-color: #ffffff;
-    padding: 10px 10px;
-    margin-bottom: 10px;
-
-}
-
-.mod2 {
-    background-color: #ffffff;
-    padding: 10px 10px;
-
-}
-
 .button {
   background-color: #ddd;
   border: none;
@@ -30,5 +17,109 @@
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 16px;
+
+}
+
+.container1 {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 60px;
+  
+}
+
+.container2 {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+
+.container3 {
+  text-align: center;
+  padding-bottom: 200px;
+}
+
+.img-col {
+  flex-basis: 50%;
+  text-align: center;
+
+}
+.text-col1 {
+  flex-basis: 50%;
+
+}
+
+.text-col2 {
+  flex-basis: 50%;
+}
+
+.image3 {
+  max-width: 400px;
+  padding-top: 20px;
+
+}
+
+
+.image1 {
+  display: inline-block;
+
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+
+    z-index: -1;
+    background: #777;
+    -webkit-box-shadow: 0 35px 20px #777;
+    -moz-box-shadow: 0 35px 20px #777;
+    box-shadow: 0 35px 20px #777;
+    -webkit-transform: scaleZ(.2);
+    -moz-transform: rotate(8deg);
+    -o-transform: rotate(8deg);
+    -ms-transform: rotate(8deg);
+    
+    transform: rotateZ(.5);
+}
+
+.image2 {
+  display: inline-block;
+  max-width: 50%;
+  margin: auto;
+
+    z-index: -1;
+    background: #777;
+    -webkit-box-shadow: 0 35px 20px #777;
+    -moz-box-shadow: 0 35px 20px #777;
+    box-shadow: 0 35px 20px #777;
+    -webkit-transform: rotate(8deg);
+    -moz-transform: rotate(8deg);
+    -o-transform: rotate(8deg);
+    -ms-transform: rotate(8deg);
+    transform: 
+
+      scaleY(-20deg)
+      scaleZ(20deg);
+}
+
+.image3 {
+  z-index: -1;
+
+  -webkit-box-shadow: 0 35px 20px #777;
+  -moz-box-shadow: 0 35px 20px #777;
+  box-shadow: 0 35px 20px #777;
+  -webkit-transform: rotate(8deg);
+  -moz-transform: rotate(8deg);
+  -o-transform: rotate(8deg);
+  -ms-transform: rotate(8deg);
+
+  transform: 
+
+  scaleY(-20deg)
+  scaleZ(20deg);
 
 }
