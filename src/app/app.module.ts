@@ -11,6 +11,7 @@ import { ProfileComponent } from './profile/profile.component';
 import { AmplifyUIAngularModule } from '@aws-amplify/ui-angular';
 import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { HomeComponent } from './home/home.component';
     AuthComponent,
     ProfileComponent,
     HeaderComponent,
-    HomeComponent
+    HomeComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
